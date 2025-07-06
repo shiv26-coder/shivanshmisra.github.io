@@ -187,3 +187,17 @@ footer {
   background: #003366;
   color: white;
 }
+
+/* Blog Post Styling */
+.blog-post {
+  background: #f7f9fb;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-5px);
+}
